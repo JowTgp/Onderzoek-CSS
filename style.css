@@ -3,16 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-html{
+html{   
     scroll-snap-type: y mandatory;
 }
 
 section{
     scroll-snap-align: start;
-    scroll-snap-stop: normal;
-    height: 300vh;
-    width: 100%;
+    scroll-snap-stop: always;
+    height: 200vh;
 
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -26,6 +24,7 @@ section{
 h1{font-weight: bold;
     font-size: 2rem;
 }
+
 
 section:nth-child(1){
     background-color: #8695d1;
@@ -44,3 +43,18 @@ section:nth-child(5){
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*scroll-snap-align: start;
+    scroll-snap-stop: normal;
+    height: 300vh;
+    width: 100%;*/
