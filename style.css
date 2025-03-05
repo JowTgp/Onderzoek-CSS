@@ -10,7 +10,6 @@ html{
 
 section{
     scroll-snap-align: center;
-    scroll-snap-stop: normal;
     height: 250vh;
     width: 100%;
 }
