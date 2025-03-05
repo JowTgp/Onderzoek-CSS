@@ -28,7 +28,8 @@ h1{font-weight: bold;
 }
 
 section:nth-child(1){
-    background-color: #8695d1;
+    /*background-color: #8695d1;*/
+    background-color: #fff;
 }
 section:nth-child(2){
     background-color: #edf258;
